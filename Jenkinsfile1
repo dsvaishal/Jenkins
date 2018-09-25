@@ -1,0 +1,14 @@
+// Powered by Infostretch 
+
+timestamps {
+
+node () {
+
+	stage ('Third') {
+ 	 echo "Third"
+	}
+	stage ('Fourth') {
+ 		echo "Forth"	
+	}
+}
+}
