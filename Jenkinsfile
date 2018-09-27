@@ -22,5 +22,11 @@ pipeline {
                 echo "Hi First"
             }
         }
+	stage('Second') {
+            steps {
+                echo "Hi Second"
+		load 'C:\\Users\\vaishal\\Desktop\\test\\abc.groovy'
+            }
+        }
     }
 }
