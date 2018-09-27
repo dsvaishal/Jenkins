@@ -1,4 +1,4 @@
-timestamps {
+/*timestamps {
 
 node () {
 
@@ -13,4 +13,14 @@ node () {
 		load 'C:\\Users\\vaishal\\Desktop\\test\\Jenkinsfile1'
 	}
 }
+}*/
+pipeline {
+    agent any
+    stages {
+        stage('First') {
+            steps {
+                echo "Hi First"
+            }
+        }
+    }
 }
