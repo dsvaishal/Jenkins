@@ -24,9 +24,9 @@ pipeline {
         }
 	stage('Second') {
             steps {
-                echo "Hi Second"
-		load 'C:\\Users\\vaishal\\Desktop\\test\\Jenkinsfile1'
+                echo "Hi Second"	
             }
         }
+load 'C:\\Users\\vaishal\\Desktop\\test\\Jenkinsfile1'
     }
 }
